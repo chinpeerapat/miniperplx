@@ -295,7 +295,7 @@ importers:
         version: 3.24.2
     devDependencies:
       '@types/google.maps':
-        specifier: ^3.55.12
+        specifier: ^3.58.1
         version: 3.58.1
       '@types/lodash':
         specifier: ^4.17.16
@@ -304,8 +304,8 @@ importers:
         specifier: ^3.4.2
         version: 3.4.2
       '@types/node':
-        specifier: ^20
-        version: 20.17.25
+        specifier: ^20.17.30
+        version: 20.17.30
       '@types/react':
         specifier: ^18
         version: 18.3.19
@@ -323,7 +323,7 @@ importers:
         version: 14.2.5(eslint@8.57.1)(typescript@5.8.2)
       knip:
         specifier: ^5.41.1
-        version: 5.46.0(@types/node@20.17.25)(typescript@5.8.2)
+        version: 5.46.0(@types/node@20.17.30)(typescript@5.8.2)
       micromatch:
         specifier: ^4.0.8
         version: 4.0.8
@@ -1528,8 +1528,8 @@ packages:
   '@types/node@18.19.81':
     resolution: {integrity: sha512-7KO9oZ2//ivtSsryp0LQUqq79zyGXzwq1WqfywpC9ucjY7YyltMMmxWgtRFRKCxwa7VPxVBVy4kHf5UC1E8Lug==}
 
-  '@types/node@20.17.25':
-    resolution: {integrity: sha512-bT+r2haIlplJUYtlZrEanFHdPIZTeiMeh/fSOEbOOfWf9uTn+lg8g0KU6Q3iMgjd9FLuuMAgfCNSkjUbxL6E3Q==}
+  '@types/node@20.17.30':
+    resolution: {integrity: sha512-7zf4YyHA+jvBNfVrk2Gtvs6x7E8V+YDW05bNfG2XkWDJfYRXrTiP/DsB2zSYTaHX0bGIujTBQdMVAhb+j7mwpg==}
 
   '@types/pbf@3.0.5':
     resolution: {integrity: sha512-j3pOPiEcWZ34R6a6mN07mUkM4o4Lwf6hPNt8eilOeZhTFbxFXmKhvXl9Y28jotFPaI1bpPDJsbCprUoNke6OrA==}
@@ -5223,7 +5223,7 @@ snapshots:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 20.17.25
+      '@types/node': 20.17.30
       '@types/yargs': 17.0.33
       chalk: 4.1.2
 
@@ -6055,14 +6055,14 @@ snapshots:
 
   '@types/node-fetch@2.6.12':
     dependencies:
-      '@types/node': 20.17.25
+      '@types/node': 20.17.30
       form-data: 4.0.2
 
   '@types/node@18.19.81':
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@20.17.25':
+  '@types/node@20.17.30':
     dependencies:
       undici-types: 6.19.8
 
@@ -6070,7 +6070,7 @@ snapshots:
 
   '@types/pg@8.11.0':
     dependencies:
-      '@types/node': 20.17.25
+      '@types/node': 20.17.30
       pg-protocol: 1.8.0
       pg-types: 4.0.2
 
@@ -6093,7 +6093,7 @@ snapshots:
 
   '@types/sqlite3@3.1.11':
     dependencies:
-      '@types/node': 20.17.25
+      '@types/node': 20.17.30
 
   '@types/stack-utils@2.0.3': {}
 
@@ -6107,7 +6107,7 @@ snapshots:
 
   '@types/ws@8.18.1':
     dependencies:
-      '@types/node': 20.17.25
+      '@types/node': 20.17.30
 
   '@types/yargs-parser@21.0.3': {}
 
@@ -7958,7 +7958,7 @@ snapshots:
   jest-util@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.17.25
+      '@types/node': 20.17.30
       chalk: 4.1.2
       ci-info: 3.9.0
       graceful-fs: 4.2.11
@@ -8031,11 +8031,11 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  knip@5.46.0(@types/node@20.17.25)(typescript@5.8.2):
+  knip@5.46.0(@types/node@20.17.30)(typescript@5.8.2):
     dependencies:
       '@nodelib/fs.walk': 3.0.1
       '@snyk/github-codeowners': 1.1.0
-      '@types/node': 20.17.25
+      '@types/node': 20.17.30
       easy-table: 1.2.0
       enhanced-resolve: 5.18.1
       fast-glob: 3.3.3
