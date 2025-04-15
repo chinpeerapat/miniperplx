@@ -125,7 +125,7 @@ import MemoryManager from '@/components/memory-manager';
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-export const maxDuration = 120;
+export const maxDuration = 60;
 
 interface Attachment {
     name: string;
